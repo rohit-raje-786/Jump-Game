@@ -1,0 +1,26 @@
+.Form-Container {
+  margin: 20px auto;
+  width: 800px;
+  background: purple;
+  color: #fff;
+  padding: 20px;
+}
+.FeedbackImg {
+  width: 200px;
+  background: black;
+  border-radius: 50%;
+}
+.txt-color {
+  padding: 40px;
+}
+.footer-links > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-cp {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-cp:hover {
+  color: #fff;
+}
