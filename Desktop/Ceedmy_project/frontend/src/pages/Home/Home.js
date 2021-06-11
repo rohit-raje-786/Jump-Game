@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
+import Form from "./Form";
+import Card from "./Card";
 import {
-  Form,
   Button,
   Image,
   Carousel,
   Container,
-  Card,
   ListGroupItem,
   ListGroup,
   Row,
@@ -58,116 +58,14 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className="Form-Container">
-        <h1>Book a free Class</h1>
+      <div className="Form-Container bg-light">
+        <h1 className="text-dark">Book a free Class</h1>
         <Container className="justify-content-md-center">
-          <Form>
-            <Form.Group controlId="">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter your Name" />
-            </Form.Group>
-
-            <Form.Group controlId="">
-              <Form.Label>Phone Number</Form.Label>
-              <Form.Control type="text" placeholder="Enter your Phone Number" />
-            </Form.Group>
-
-            <Form.Group controlId="">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Enter your Email" />
-            </Form.Group>
-            <Form.Group controlId="formGridState">
-              <Form.Label>State</Form.Label>
-              <Form.Control as="select" defaultValue="State">
-                <option>State</option>
-                <option>Gujrat</option>
-                <option>Maharashtra</option>
-              </Form.Control>
-            </Form.Group>
-            <br />
-            <Button variant="primary" type="submit">
-              Schedule a Free Class
-            </Button>
-          </Form>
+          <Form />
         </Container>
       </div>
-      <Container className="justify-content-md-center">
-        <Row>
-          <Col sm={4}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="https://i.ytimg.com/vi/hBJ7eONSsbw/maxresdefault.jpg"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-              <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
-              </ListGroup>
-              <Card.Body>
-                <Card.Link href="#">Know More</Card.Link>
-                <Button className="mx-2">Book Free Class</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="https://i.ytimg.com/vi/hBJ7eONSsbw/maxresdefault.jpg"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-              <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
-              </ListGroup>
-              <Card.Body>
-                <Card.Link href="#">Know More</Card.Link>
-                <Button className="mx-2">Book Free Class</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col sm={3}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="https://i.ytimg.com/vi/hBJ7eONSsbw/maxresdefault.jpg"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-              <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
-              </ListGroup>
-              <Card.Body>
-                <Card.Link href="#">Know More</Card.Link>
-                <Button className="mx-2">Book Free Class</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <div className="cnt mt-3">
+      <Card />
+      <div className="cnt mt-5 mb-3">
         <h1 className="text-center">Our Students</h1>
         <Carousel fade className="txt-color">
           <Carousel.Item>

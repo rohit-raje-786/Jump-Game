@@ -31,6 +31,7 @@ const Header = () => {
             </NavDropdown>
             <Nav.Link href="/course">Buy a Course</Nav.Link>
             <Nav.Link href="/succes">Succes Stories</Nav.Link>
+            <Nav.Link href="/about">About us</Nav.Link>
           </Nav>
           <Form className="d-flex " action="/login">
             <Nav.Link className="btn btn-primary float-right" href="/login">

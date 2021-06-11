@@ -22,7 +22,6 @@ html,body{
     margin: 0px;
     overflow-x: hidden;;
 }
-
 .img {
     max-width: 100%;
     -webkit-transition: .3s;
@@ -89,7 +88,7 @@ h3 {
 
 .boxed-btn {
     background: #fff;
-    color: #04d2c8;
+    color: #666;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Poppins", sans-serif;
@@ -99,15 +98,15 @@ h3 {
     border: 1px solid #04d2c8;
     letter-spacing: 3px;
     text-align: center;
-    color: #04d2c8!important;
+    color: #666!important;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #04d2c8;
+    background: #666;
     color: #fff!important;
-    border: 1px solid #04d2c8
+    border: 1px solid #000
 }
 
 .boxed-btn:focus {
@@ -119,7 +118,7 @@ h3 {
     font-size: 16px;
     color: #fff;
     padding: 17px 50px;
-    background: #04d2c8;
+    background: #666;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -133,9 +132,9 @@ h3 {
 
 .boxed_btn:hover {
     background: transparent;
-    color: #04d2c8;
-    border: 1px solid #04d2c8;
-    color: #04d2c8!important
+    color: #666;
+    border: 1px solid #000;
+    color: #000!important
 }
 
 .boxed_btn_rev {
@@ -257,22 +256,23 @@ h3 {
 
 
 .subscribe_newsletter {
-    background: #04d2c8;
-    padding: 100px 0
+    
+    padding: 100px 0;
+    
 }
 
 .subscribe_newsletter .newsletter_text h3 {
     font-size: 36px;
-    color: #fff;
+    color: #000;
     font-weight: 400
 }
 
 .subscribe_newsletter .newsletter_text p {
-    color: #fff
+    color: #000;
 }
 
 .subscribe_newsletter .newsletter_form h4 {
-    color: #fff;
+    color: #000;
     margin-bottom: 20px;
     font-size: 17px;
     font-weight: 400
